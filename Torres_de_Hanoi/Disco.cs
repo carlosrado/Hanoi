@@ -8,11 +8,22 @@ namespace Torres_de_Hanoi
 {
     class Disco
     {
-        /*TODO: 
-        Decidir tipo de Valor
         public int Valor { get; set; }
-        public String Valor { get; set; }
-        */
 
+
+        public Disco(int valor)
+        {
+            Valor = valor;
+        }
+
+        public bool mayorQue(Disco disco)
+        {
+            if (disco == null) { 
+                return true; 
+            }
+            else {
+                return Valor > disco.Valor; 
+            }
+        }
     }
 }
