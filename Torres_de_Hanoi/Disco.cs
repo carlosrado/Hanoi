@@ -15,15 +15,5 @@ namespace Torres_de_Hanoi
         {
             Valor = valor;
         }
-
-        public bool mayorQue(Disco disco)
-        {
-            if (disco == null) { 
-                return true; 
-            }
-            else {
-                return Valor > disco.Valor; 
-            }
-        }
     }
 }
