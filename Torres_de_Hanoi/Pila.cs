@@ -49,7 +49,7 @@ class Pila
                 aux = Elementos[Size-1];
                 Elementos.RemoveAt(Size-1);
                 Size--;
-                if (Size == 0)){
+                if (Size == 0){
                     Top = 0;
                 }
                 else {
